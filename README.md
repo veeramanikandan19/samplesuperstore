@@ -74,16 +74,149 @@ import seaborn as sns
 
 ---
 
-## 📁 Project Structure
+## ⚙️ Requirements
 
-```
-📦 Sample-Superstore-Analysis
-├── Task_1_BDA.ipynb      # Google Colab Notebook
-├── data.csv              # Sample Superstore Dataset
-└── README.md             # Project Documentation
+Before running this project, make sure you have:
+
+- Python 3.9 or above
+- Google Colab or Jupyter Notebook
+- Git (optional, for cloning the repository)
+
+### Required Python Libraries
+
+```bash
+pip install pandas numpy matplotlib seaborn
 ```
 
 ---
+
+## ▶️ How to Run
+
+### Option 1: Google Colab (Recommended)
+
+1. Clone or download this repository.
+2. Open `File.ipynb` in Google Colab.
+3. Upload `data.csv` if it is not already available.
+4. Run all notebook cells sequentially.
+5. View the generated analysis and visualizations.
+
+---
+
+### Option 2: Jupyter Notebook
+
+1. Clone the repository.
+
+```bash
+git clone https://github.com/your-username/sample-superstore-analysis.git
+```
+
+2. Move into the project folder.
+
+```bash
+cd sample-superstore-analysis
+```
+
+3. Install the required libraries.
+
+```bash
+pip install pandas numpy matplotlib seaborn
+```
+
+4. Launch Jupyter Notebook.
+
+```bash
+jupyter notebook
+```
+
+5. Open **Task_1_BDA.ipynb** and run all cells.
+
+---
+
+## 📂 Project Structure
+
+```
+Sample-Superstore-Analysis/
+│
+├── 📓 Task_1_BDA.ipynb
+├── 📊 data.csv
+├── 📄 README.md
+└── 📁 screenshots/
+```
+
+---
+
+## 📈 Project Outputs
+
+The notebook performs the following analyses:
+
+- Dataset Overview
+- Data Cleaning
+- Missing Value Analysis
+- Sales Analysis
+- Profit Analysis
+- Category-wise Performance
+- Region-wise Performance
+- Customer Segment Analysis
+- Data Visualization
+
+---
+
+## 📸 Sample Output
+
+You can include screenshots of:
+
+- Dataset Preview
+- Correlation Heatmap
+- Sales by Category Chart
+- Profit by Region Chart
+- Distribution Plots
+
+
+*Sales by category*
+
+<img width="722" height="557" alt="Screenshot 2026-08-02 193308" src="https://github.com/user-attachments/assets/49dbce92-4d4c-435f-817b-8d5b5a9d9e06" />
+
+
+*Sales by distribution*
+
+<img width="705" height="469" alt="Screenshot 2026-08-02 193513" src="https://github.com/user-attachments/assets/6a0c5143-367a-4c0d-9a6c-dd3992f91a75" />
+
+---
+
+## 💼 Skills Applied
+
+- Data Collection
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Statistical Analysis
+- Data Visualization
+- Python Programming
+- Business Insight Generation
+- Git & GitHub
+
+---
+
+## 📌 Key Takeaways
+
+- Learned to work with real-world retail datasets.
+- Performed end-to-end exploratory data analysis.
+- Visualized business trends using Python.
+- Improved proficiency in Pandas, Matplotlib, and Seaborn.
+- Managed the project using GitHub.
+
+---
+
+## 🤝 Contributing
+
+Contributions, suggestions, and improvements are welcome.
+
+1. Fork the repository.
+2. Create a new branch.
+3. Commit your changes.
+4. Submit a Pull Request.
+
+---
+
 
 ## 📊 Analysis Workflow
 
